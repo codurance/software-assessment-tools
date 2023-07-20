@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Check if the repository directory is provided as a parameter
 if [ $# -ne 1 ]; then
