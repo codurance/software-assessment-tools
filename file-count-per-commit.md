@@ -12,7 +12,7 @@ hash                                    ,date      ,files changed,author,message
 ```
 
 and the other has the same format but will contain the excluded files.
-Files above with more than 30 commits (30 is the default at the time of writing) will go to this exclusion file.
+Commits above with more than 30 files (30 is the default at the time of writing) will go to this exclusion file.
 You can see the actual value at the top of the script.
 
 This exclusion is meant to remove large irrelevant administrative commits, such as a git init, package rename or move etc. If you wish to include all the commits, then put this value to a very large number.
