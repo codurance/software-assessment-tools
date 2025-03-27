@@ -1,7 +1,7 @@
 # How to get the contribution repartition?
 
 1. Go to the git repository to analyse
-2. Run `1-list-commits.sh`
+2. Run `1-list-commits.sh $GIT_REPO $OUTPUT_FOLDER`
 3. This will generate a file `commit_count_per_month.csv` containing this
 
 ```csv
@@ -14,9 +14,7 @@ date,commit count,author
 2023-05,1,john@gmail.com
 ```
 
-4. Move the csv file in a local folder, for instance `examples/trivial`
-
-5. Run `2-create-repartition-matrix.csv`
+5. Run `2-create-repartition-matrix.csv $OUTPUT_FOLDER`
 6. This will generate `repartition-matrix.csv`
 
 ```csv

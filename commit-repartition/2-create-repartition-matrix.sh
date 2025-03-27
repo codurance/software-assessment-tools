@@ -7,7 +7,7 @@ if [[ -z "$FOLDER" ]]; then
   exit 1
 fi
 
-input="$FOLDER/commits_per_month.csv"
+input="$FOLDER/commit_count_per_month.csv"
 output="$FOLDER/repartition-matrix.csv"
 tmp="$FOLDER/tmp-matrix.csv"
 
